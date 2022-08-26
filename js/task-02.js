@@ -6,7 +6,7 @@ const ingredients = [
 	'Herbs',
 	'Condiments',
 ];
-const ulEl = document.createElement('ul');
+const ulEl = document.querySelector('#ingredients');
 const elements = [];
 for (let i = 0; i < ingredients.length; i += 1) {
 	const ingredient = ingredients[i];
