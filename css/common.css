@@ -28,6 +28,6 @@ button {
 	flex-wrap: wrap;
 	justify-content: center;
 }
-li {
+.gallery li {
 	list-style: none;
 }
